@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX target_roles_unique_active_per_user ON public.target_roles (user_id) WHERE (is_active = true);
